@@ -20,7 +20,7 @@ def execute():
     from langchain.vectorstores import Chroma
     
     
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = ""
     
 
     PERSIST = False
