@@ -12,7 +12,7 @@ def execute():
     import os 
     
     
-    OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]="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"
+    OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]=""
     
     
     loader = YoutubeLoader.from_youtube_url("https://www.youtube.com/watch?v=6Ub7Z1AGIuk", add_video_info=True)
