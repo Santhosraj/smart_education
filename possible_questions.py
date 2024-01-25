@@ -121,7 +121,7 @@ def execute():
         """
     combine_prompt_template = PromptTemplate(template=combine_prompt, input_variables=["text", "topic_name"])
         
-    OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]="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"
+    OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]=""
         
     llm = ChatOpenAI(temperature = 2,model_name = 'gpt-3.5-turbo')
         
