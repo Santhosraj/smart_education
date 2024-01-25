@@ -6,7 +6,7 @@ Created on Sat Sep  2 14:12:31 2023
 """
 def execute():
     import os
-    os.environ["OPENAI_API_KEY"]='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'
+    os.environ["OPENAI_API_KEY"]=''
     
     
     import tiktoken
