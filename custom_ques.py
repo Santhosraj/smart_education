@@ -1,5 +1,5 @@
 # -*- coding: utf'8 -*-
-# -*- coding: utf'8 -*-
+
 """
 Created on Fri Sep  1 17:10:36 2023
 
@@ -35,10 +35,10 @@ def execute():
     from langchain.vectorstores import Chroma, Pinecone
     from langchain.embeddings.openai import OpenAIEmbeddings
     import pinecone
-    OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]="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"
+    OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]=""
     
-    PINECONE_API_KEY = os.environ["PINECONE_API_KEY"] = "543f0280-bd97-4a51-b9f5-5a5c688d4336"
-    PINECONE_API_ENV = os.environ["PINECONE_API_ENV"] = "gcp-starter"
+    PINECONE_API_KEY = os.environ["PINECONE_API_KEY"] = ""
+    PINECONE_API_ENV = os.environ["PINECONE_API_ENV"] = ""
     
     
     embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
